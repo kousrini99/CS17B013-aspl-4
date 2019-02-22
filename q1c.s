@@ -40,6 +40,6 @@ L4:
 	addi $t5,$t5,1
 	j    L1
 
-L5:    	# lw   $s0,0($sp)
-	# addi $sp,$sp,8
+L5:    	lw   $s0,0($sp)
+	addi $sp,$sp,8
 	j    $31
