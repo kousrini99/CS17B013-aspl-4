@@ -17,16 +17,19 @@ main:
      add  $t0,$s0,$zero
      add  $s0,$t1,$t5
      add  $s0,$s0,$s1
+     li   $s1,0
      slt  $s1,$s0,$t1
      slt  $s1,$s0,$t5
      add  $t1,$s0,$zero 
      add  $s0,$t2,$t6
      add  $s0,$s0,$s1
+     li   $s1,0
      slt  $s1,$s0,$t2
      slt  $s1,$s0,$t6
      add  $t2,$s0,$zero
      add  $s0,$t3,$t7
      add  $s0,$s0,$s1
+     li   $s1,0
      slt  $s1,$s0,$t3
      slt  $s1,$s0,$t7
      add  $t3,$s0,$zero  
